@@ -12,7 +12,6 @@ build_job:
     - 'cd ..'
     - 'cd ..'
     - 'cd ..'
-    - 'cd Tools'
     - 'ls'
     - '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSbuild.exe" ConsoleApp2.sln'  
   artifacts:

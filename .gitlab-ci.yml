@@ -10,7 +10,7 @@ build_job:
     - 'cd ConsoleApp2'
     - 'cd ..'
     - 'ls'
-    - 'nuget.exe restore'
+    - '"nuget.exe" restore'
     - '"C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSbuild.exe" ConsoleApp2.sln'  
   artifacts:
     paths:
